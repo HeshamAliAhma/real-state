@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- رأس الصفحة -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./images/logo.svg" alt="Logo">
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">العقارات</a></li>
+                    <li><a href="#">من نحن</a></li>
+                    <li><a href="#">تواصل معنا</a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- قسم البحث عن العقارات -->
+    <section class="search-section">
+        <div class="container">
+            <h2>ابحث عن عقارك</h2>
+            <form class="search-form">
+                <input type="text" placeholder="ادخل اسم المدينة">
+                <select>
+                    <option value="نوع العقار">نوع العقار</option>
+                    <option value="شقة">شقة</option>
+                    <option value="فيلا">فيلا</option>
+                    <option value="مكتب">مكتب</option>
+                </select>
+                <button type="submit">بحث</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- قسم العروض المميزة -->
+    <section class="featured-section">
+        <div class="container">
+            <h2>عروض مميزة</h2>
+            <div class="featured-cards">
+                <div class="card">
+                    <img src="./images/etmam1.webp" alt="House 1">
+                    <h3>فيلا فاخرة</h3>
+                    <p>الموقع: الرياض</p>
+                    <p>السعر: 2,000,000 ريال</p>
+                </div>
+                <div class="card">
+                    <img src="./images/etmam2.webp" alt="House 2">
+                    <h3>شقة جديدة</h3>
+                    <p>الموقع: جدة</p>
+                    <p>السعر: 1,200,000 ريال</p>
+                </div>
+                <div class="card">
+                    <img src="./images/about.webp" alt="House 3">
+                    <h3>مكتب حديث</h3>
+                    <p>الموقع: مكة</p>
+                    <p>السعر: 800,000 ريال</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- قسم المميزات -->
+<section class="features">
+    <div class="container">
+        <h2>مميزاتنا</h2>
+        <div class="features-cards">
+
+            <!-- ميزة 1 -->
+            <div class="feature-card">
+                <i class="fa-solid fa-house"></i>
+                <h3>أفضل العقارات</h3>
+                <p>نوفر لك مجموعة من أفضل العقارات المتاحة للبيع والإيجار.</p>
+            </div>
+
+            <!-- ميزة 2 -->
+            <div class="feature-card">
+                <i class="fa-solid fa-handshake"></i>
+                <h3>سهولة التعامل</h3>
+                <p>إجراءات سهلة وواضحة تساعدك على تحقيق هدفك بكل يسر.</p>
+            </div>
+
+            <!-- ميزة 3 -->
+            <div class="feature-card">
+                <i class="fa-solid fa-shield"></i>
+                <h3>أمان وموثوقية</h3>
+                <p>نضمن لك حماية بياناتك وثقة في كل تعاملاتك معنا.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="properties-grid">
+    <h2>عروض العقارات</h2>
+    <div class="grid-container">
+        <!-- كارت العقار 1 -->
+        <div class="property-card">
+            <img src="https://via.placeholder.com/500x300?text=عقار+1" alt="عقار 1">
+            <div class="property-info">
+                <h3>فيلا النخيل</h3>
+                <p>السعر: 2,500,000 ريال</p>
+                <p>الموقع: جدة</p>
+                <a href="#" class="view-details">عرض التفاصيل</a>
+            </div>
+        </div>
+        <!-- كارت العقار 2 -->
+        <div class="property-card">
+            <img src="https://via.placeholder.com/500x300?text=عقار+2" alt="عقار 2">
+            <div class="property-info">
+                <h3>شقة البحر</h3>
+                <p>السعر: 1,800,000 ريال</p>
+                <p>الموقع: الرياض</p>
+                <a href="#" class="view-details">عرض التفاصيل</a>
+            </div>
+        </div>
+        <!-- كارت العقار 3 -->
+        <div class="property-card">
+            <img src="https://via.placeholder.com/500x300?text=عقار+3" alt="عقار 3">
+            <div class="property-info">
+                <h3>قصر الأفق</h3>
+                <p>السعر: 3,200,000 ريال</p>
+                <p>الموقع: مكة</p>
+                <a href="#" class="view-details">عرض التفاصيل</a>
+            </div>
+        </div>
+        <!-- كارت العقار 4 -->
+        <div class="property-card">
+            <img src="https://via.placeholder.com/500x300?text=عقار+4" alt="عقار 4">
+            <div class="property-info">
+                <h3>منزل الورد</h3>
+                <p>السعر: 1,600,000 ريال</p>
+                <p>الموقع: الدمام</p>
+                <a href="#" class="view-details">عرض التفاصيل</a>
+            </div>
+        </div>
+        <!-- كارت العقار 5 -->
+        <div class="property-card">
+            <img src="https://via.placeholder.com/500x300?text=عقار+5" alt="عقار 5">
+            <div class="property-info">
+                <h3>شقة النرجس</h3>
+                <p>السعر: 1,200,000 ريال</p>
+                <p>الموقع: المدينة المنورة</p>
+                <a href="#" class="view-details">عرض التفاصيل</a>
+            </div>
+        </div>
+        <!-- كارت العقار 6 -->
+        <div class="property-card">
+            <img src="https://via.placeholder.com/500x300?text=عقار+6" alt="عقار 6">
+            <div class="property-info">
+                <h3>فيلا الربيع</h3>
+                <p>السعر: 2,800,000 ريال</p>
+                <p>الموقع: الخبر</p>
+                <a href="#" class="view-details">عرض التفاصيل</a>
+            </div>
+        </div>
+        <!-- كارت العقار 7 -->
+        <div class="property-card">
+            <img src="https://via.placeholder.com/500x300?text=عقار+7" alt="عقار 7">
+            <div class="property-info">
+                <h3>شقة النيل</h3>
+                <p>السعر: 1,900,000 ريال</p>
+                <p>الموقع: جدة</p>
+                <a href="#" class="view-details">عرض التفاصيل</a>
+            </div>
+        </div>
+        <!-- كارت العقار 8 -->
+        <div class="property-card">
+            <img src="https://via.placeholder.com/500x300?text=عقار+8" alt="عقار 8">
+            <div class="property-info">
+                <h3>منزل الكوثر</h3>
+                <p>السعر: 1,400,000 ريال</p>
+                <p>الموقع: الرياض</p>
+                <a href="#" class="view-details">عرض التفاصيل</a>
+            </div>
+        </div>
+        <!-- كارت العقار 9 -->
+        <div class="property-card">
+            <img src="https://via.placeholder.com/500x300?text=عقار+9" alt="عقار 9">
+            <div class="property-info">
+                <h3>فيلا الزهور</h3>
+                <p>السعر: 2,200,000 ريال</p>
+                <p>الموقع: مكة</p>
+                <a href="#" class="view-details">عرض التفاصيل</a>
+            </div>
+        </div>
+        <!-- كارت العقار 10 -->
+        <div class="property-card">
+            <img src="https://via.placeholder.com/500x300?text=عقار+10" alt="عقار 10">
+            <div class="property-info">
+                <h3>شقة الياقوت</h3>
+                <p>السعر: 1,300,000 ريال</p>
+                <p>الموقع: المدينة المنورة</p>
+                <a href="#" class="view-details">عرض التفاصيل</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- قسم عروض الشقق -->
+<section class="apartment-offers">
+    <div class="container">
+        <h2>عروض الشقق</h2>
+        <div class="apartment-cards">
+
+            <!-- كارت شقة 1 -->
+            <div class="apartment-card">
+                <div class="apartment-image">
+                    <img src="./images/shaka1.webp" alt="شقة 1">
+                    <div class="overlay">
+                        <span class="price">1,200,000 ريال</span>
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> جدة، المملكة العربية السعودية</span>
+                    </div>
+                </div>
+                <div class="apartment-info">
+                    <h3>شقة فاخرة في جدة</h3>
+                    <p>مساحة: 180 متر مربع</p>
+                    <p>3 غرف نوم، 2 حمام</p>
+                </div>
+            </div>
+
+            <!-- كارت شقة 2 -->
+            <div class="apartment-card">
+                <div class="apartment-image">
+                    <img src="./images/shaka2.webp" alt="شقة 2">
+                    <div class="overlay">
+                        <span class="price">950,000 ريال</span>
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> الرياض، المملكة العربية السعودية</span>
+                    </div>
+                </div>
+                <div class="apartment-info">
+                    <h3>شقة حديثة في الرياض</h3>
+                    <p>مساحة: 150 متر مربع</p>
+                    <p>2 غرف نوم، 1 حمام</p>
+                </div>
+            </div>
+
+            <!-- كارت شقة 3 -->
+            <div class="apartment-card">
+                <div class="apartment-image">
+                    <img src="./images/shaka3.webp" alt="شقة 3">
+                    <div class="overlay">
+                        <span class="price">1,500,000 ريال</span>
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> مكة، المملكة العربية السعودية</span>
+                    </div>
+                </div>
+                <div class="apartment-info">
+                    <h3>شقة رائعة في مكة</h3>
+                    <p>مساحة: 200 متر مربع</p>
+                    <p>4 غرف نوم، 3 حمامات</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- قسم عروض الفلل -->
+<section class="villa-offers">
+    <div class="container">
+        <h2>عروض الفلل</h2>
+        <div class="villa-cards">
+
+            <!-- كارت فيلا 1 -->
+            <div class="villa-card">
+                <img src="./images/filla1.webp" alt="فيلا 1">
+                <div class="villa-info">
+                    <h3>فيلا فاخرة في الرياض</h3>
+                    <p class="price">3,000,000 ريال</p>
+                    <p class="location"><i class="fa-solid fa-location-dot"></i> الرياض، المملكة العربية السعودية</p>
+                </div>
+            </div>
+
+            <!-- كارت فيلا 2 -->
+            <div class="villa-card">
+                <img src="./images/filla2.webp" alt="فيلا 2">
+                <div class="villa-info">
+                    <h3>فيلا رائعة في جدة</h3>
+                    <p class="price">2,500,000 ريال</p>
+                    <p class="location"><i class="fa-solid fa-location-dot"></i> جدة، المملكة العربية السعودية</p>
+                </div>
+            </div>
+
+            <!-- كارت فيلا 3 -->
+            <div class="villa-card">
+                <img src="./images/filla3.webp" alt="فيلا 3">
+                <div class="villa-info">
+                    <h3>فيلا حديثة في مكة</h3>
+                    <p class="price">4,000,000 ريال</p>
+                    <p class="location"><i class="fa-solid fa-location-dot"></i> مكة، المملكة العربية السعودية</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="contact-us">
+    <h2>تواصل معنا</h2>
+    <div class="contact-container">
+        <!-- نموذج التواصل -->
+        <form class="contact-form">
+            <label for="name">الاسم الكامل</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">الرسالة</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">إرسال</button>
+        </form>
+
+        <!-- معلومات الاتصال -->
+        <div class="contact-info">
+            <h3>معلومات الاتصال</h3>
+            <p><i class="fa-solid fa-location-dot"></i> العنوان: 123 شارع الملك عبد الله، الرياض، السعودية</p>
+            <p><i class="fa-solid fa-phone"></i> الهاتف: +966 123 456 789</p>
+            <p><i class="fa-solid fa-envelope"></i> البريد الإلكتروني: contact@example.com</p>
+            <p><i class="fa-solid fa-clock"></i> أوقات العمل: من الأحد إلى الخميس، من 9 صباحًا إلى 5 مساءً</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+    <!-- فوتر الموقع -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-columns">
+
+            <!-- عمود: معلومات الاتصال -->
+            <div class="footer-column">
+                <h4>معلومات الاتصال</h4>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> +966 555 555 555</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@example.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i> الرياض، المملكة العربية السعودية</li>
+                </ul>
+            </div>
+
+            <!-- عمود: روابط سريعة -->
+            <div class="footer-column">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">العقارات</a></li>
+                    <li><a href="#">من نحن</a></li>
+                    <li><a href="#">تواصل معنا</a></li>
+                </ul>
+            </div>
+
+            <!-- عمود: وسائل التواصل الاجتماعي -->
+            <div class="footer-column">
+                <h4>تابعنا</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- حقوق النشر -->
+        <div class="footer-bottom">
+            <p>© 2024 جميع الحقوق محفوظة. تصميم بواسطة <a href="#">اسم شركتك</a>.</p>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script src="./main.js"></script>
+
+</body>
+</html>
